@@ -120,7 +120,7 @@ void terminal_putchar(char c)
  */
 void write_string(char *data){
   size_t strl = strlen(data);
-  for (int i =0; i < strl; i++){
+  for (size_t i =0; i < strl; i++){
     terminal_putchar(data[i]);
   }
 }
