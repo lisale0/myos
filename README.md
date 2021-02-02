@@ -10,8 +10,9 @@ This is a toy OS based on https://wiki.osdev.org/Expanded_Main_Page
 
 # Debug
 `make qemudebug`
-`~ gdb`
+
 ```
+~ gdb
 (gdb) set architecture i8086
 (gdb) target remote localhost:26000
 ```
